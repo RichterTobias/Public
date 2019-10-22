@@ -1,6 +1,6 @@
 # Start-SimplePomodoro
 
-Start-SimplePomodoro is a function, add your varieables and the run syntax for easy reusability
+Start-SimplePomodoro is a function, add your variables and the run syntax in the ps1 file for easy reusability
 
 ## Script Result
 
