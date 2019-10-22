@@ -14,7 +14,7 @@ Start-SimplePomodoro is a function, add your varieables and the run syntax for e
         Note: for desktops you need to enable presentation settings in order to suppress email alerts, by MVP Robert Sparnaaij: https://msunified.net/2013/11/25/lock-down-your-lync-status-and-pc-notifications-using-powershell/
         Start-Pomodoro also controls your Skype client presence, this is removed in Start-SimplePomodoro
         This function closes Teams and starts it again after the session has ended for full focus on deep work
-        Latest version blogged about here: 
+        Latest version blogged about here: https://msunified.net/2019/10/22/my-current-powershell-pomodoro-timer/
         Latest version to be found here: https://github.com/StaleHansen/Public/tree/master/Start-SimplePomodoro
         Required version: Windows PowerShell 3.0 or later 
         If you end the script prematurely, you can run the script with a 10 second lenght to reset your IFTTT and 
