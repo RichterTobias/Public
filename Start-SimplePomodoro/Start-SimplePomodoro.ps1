@@ -144,6 +144,10 @@
 
 }
 
-Start-SimplePomodoro -SpotifyPlayList spotify:playlist:XXXXXXXXXXXXXXXXXX -IFTTMuteTrigger pomodoro_start -IFTTUnMuteTrigger pomodoro_stop -IFTTWebhookKey XXXXXXXXX
+#Start-SimplePomodoro -SpotifyPlayList spotify:playlist:XXXXXXXXXXXXXXXXXX -IFTTMuteTrigger pomodoro_start -IFTTUnMuteTrigger pomodoro_stop -IFTTWebhookKey XXXXXXXXX
 #reset
 #Start-SimplePomodoro -Minutes 0.1 -SpotifyPlayList spotify:playlist:XXXXXXXXXXXXXXXXXX -IFTTMuteTrigger pomodoro_start -IFTTUnMuteTrigger pomodoro_stop -IFTTWebhookKey XXXXXXXXX
+
+Start-SimplePomodoro -Minutes 0.1 -SpotifyPlayList spotify:playlist:287V0CPCyiQf37yAb3v8vK -IFTTMuteTrigger MuteAndroidFromPowerShell -IFTTUnMuteTrigger UnMuteAndroidFromPowerShell -IFTTWebhookKey d-PJw-6EuGTlnGQnAsIwY5
+
+
