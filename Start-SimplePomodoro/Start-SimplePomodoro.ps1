@@ -5,7 +5,7 @@
       Start-SimplePomodoro is a function command to start a new Pomodoro session with additional actions. This is a simplified version of the Start-Pomodoro 
       .DESCRIPTION
 
-        By MVP Ståle Hansen (http://msunified.net) with modifications by Jan Egil Ring
+        By MVP Ståle Hansen (http://msunified.net) with modifications by Jan Egil Ring (https://github.com/janegilring)
         Pomodoro function by Nathan.Run() http://nathanhoneycutt.net/blog/a-pomodoro-timer-in-powershell/
         Note: for desktops you need to enable presentation settings in order to suppress email alerts, by MVP Robert Sparnaaij: https://msunified.net/2013/11/25/lock-down-your-lync-status-and-pc-notifications-using-powershell/
         Start-Pomodoro also controls your Skype client presence, this is removed in Start-SimplePomodoro
@@ -144,10 +144,8 @@
 
 }
 
-#Start-SimplePomodoro -SpotifyPlayList spotify:playlist:XXXXXXXXXXXXXXXXXX -IFTTMuteTrigger pomodoro_start -IFTTUnMuteTrigger pomodoro_stop -IFTTWebhookKey XXXXXXXXX
+Start-SimplePomodoro -SpotifyPlayList spotify:playlist:XXXXXXXXXXXXXXXXXX -IFTTMuteTrigger pomodoro_start -IFTTUnMuteTrigger pomodoro_stop -IFTTWebhookKey XXXXXXXXX
 #reset
 #Start-SimplePomodoro -Minutes 0.1 -SpotifyPlayList spotify:playlist:XXXXXXXXXXXXXXXXXX -IFTTMuteTrigger pomodoro_start -IFTTUnMuteTrigger pomodoro_stop -IFTTWebhookKey XXXXXXXXX
-
-Start-SimplePomodoro -Minutes 0.1 -SpotifyPlayList spotify:playlist:287V0CPCyiQf37yAb3v8vK -IFTTMuteTrigger MuteAndroidFromPowerShell -IFTTUnMuteTrigger UnMuteAndroidFromPowerShell -IFTTWebhookKey d-PJw-6EuGTlnGQnAsIwY5
 
 
