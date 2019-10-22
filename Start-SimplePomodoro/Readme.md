@@ -2,6 +2,10 @@
 
 Start-SimplePomodoro is a function, add your varieables and the run syntax for easy reusability
 
+## Script Result
+
+![My image](username.github.com/repository/img/image.jpg)
+
 ## SYNOPSIS
       Start-SimplePomodoro is a function command to start a new Pomodoro session with additional actions. This is a simplified version of the Start-Pomodoro 
 ## DESCRIPTION
