@@ -2,9 +2,9 @@
 
 Start-SimplePomodoro is a function, add your varieables and the run syntax for easy reusability
 
-.SYNOPSIS
+# SYNOPSIS
       Start-SimplePomodoro is a function command to start a new Pomodoro session with additional actions. This is a simplified version of the Start-Pomodoro 
-      .DESCRIPTION
+# DESCRIPTION
         By MVP Ståle Hansen (http://msunified.net) with modifications by Jan Egil Ring
         Pomodoro function by Nathan.Run() http://nathanhoneycutt.net/blog/a-pomodoro-timer-in-powershell/
         Note: for desktops you need to enable presentation settings in order to suppress email alerts, by MVP Robert Sparnaaij: https://msunified.net/2013/11/25/lock-down-your-lync-status-and-pc-notifications-using-powershell/
@@ -15,6 +15,7 @@ Start-SimplePomodoro is a function, add your varieables and the run syntax for e
         Required version: Windows PowerShell 3.0 or later 
         If you end the script prematurely, you can run the script with a 10 second lenght to reset your IFTTT and 
         It is recommended to add your Start-SimplePomodoro runline at the end of this script for easy startup
+        
      .EXAMPLE
       Start-SimplePomodoro
      .EXAMPLE
