@@ -9,7 +9,7 @@ Start-SimplePomodoro is a function, add your varieables and the run syntax for e
 ## SYNOPSIS
       Start-SimplePomodoro is a function command to start a new Pomodoro session with additional actions. This is a simplified version of the Start-Pomodoro 
 ## DESCRIPTION
-        By MVP Ståle Hansen (http://msunified.net) with modifications by Jan Egil Ring
+        By MVP Ståle Hansen (http://msunified.net) with modifications by Jan Egil Ring (https://github.com/janegilring)
         Pomodoro function by Nathan.Run() http://nathanhoneycutt.net/blog/a-pomodoro-timer-in-powershell/
         Note: for desktops you need to enable presentation settings in order to suppress email alerts, by MVP Robert Sparnaaij: https://msunified.net/2013/11/25/lock-down-your-lync-status-and-pc-notifications-using-powershell/
         Start-Pomodoro also controls your Skype client presence, this is removed in Start-SimplePomodoro
