@@ -9,6 +9,7 @@
         Pomodoro function by Nathan.Run() http://nathanhoneycutt.net/blog/a-pomodoro-timer-in-powershell/
         Note: for desktops you need to enable presentation settings in order to suppress email alerts, by MVP Robert Sparnaaij: https://msunified.net/2013/11/25/lock-down-your-lync-status-and-pc-notifications-using-powershell/
         Start-Pomodoro also controls your Skype client presence, this is removed in Start-SimplePomodoro
+        Get the old version here: https://github.com/janegilring/PSProductivityTools
         This function closes Teams and starts it again after the session has ended for full focus on deep work
         Latest version blogged about here: https://msunified.net/2019/10/22/my-current-powershell-pomodoro-timer/
         Latest version to be found here: https://github.com/StaleHansen/Public/tree/master/Start-SimplePomodoro
